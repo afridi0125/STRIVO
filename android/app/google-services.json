@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "236900641025",
+    "project_id": "strivo-app-4af81",
+    "storage_bucket": "strivo-app-4af81.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236900641025:android:8fbc2c6c83bf3676379300",
+        "android_client_info": {
+          "package_name": "com.example.strivo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236900641025-v16ot6fc4ukkgdmi2q4kohar8ujv343v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.strivo",
+            "certificate_hash": "c03e12f8d1a439cce6eb943b5ef3238e9f643554"
+          }
+        },
+        {
+          "client_id": "236900641025-tigg924c8gq4va75a95vupr17a5b4tms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8RxtvNam3b_dV6s2splIS5VgmSb-ikSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236900641025-tigg924c8gq4va75a95vupr17a5b4tms.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236900641025-s48dn7hvc4kakuqq68cj0q39mjgu9nde.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.strivo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

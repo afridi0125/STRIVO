@@ -1,0 +1,60 @@
+name: strivo_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  google_sign_in: ^7.2.0
+  sign_in_with_apple: ^7.0.1
+  image_picker: ^1.0.7
+  pedometer: ^4.0.1
+  fl_chart: ^0.68.0
+  video_player: ^2.8.2
+  shared_preferences: ^2.2.2
+
+  # iOS style icons
+  cupertino_icons: ^1.0.8
+
+
+# Dev dependencies = tools used during development
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # package to generate app icons automatically
+  flutter_launcher_icons: ^0.13.1
+
+
+# Flutter specific settings
+flutter:
+
+  uses-material-design: true
+
+  # app assets
+  assets:
+    - assets/images/
+    - assets/videos/
+
+
+# App Icon configuration (MUST be outside flutter section)
+flutter_launcher_icons:
+
+  # generate android icons
+  android: true
+
+  # generate ios icons
+  ios: true
+
+  # main icon path (1024x1024 image)
+  image_path: assets/icon/app_icon.png
